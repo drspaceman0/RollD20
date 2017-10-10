@@ -1,0 +1,35 @@
+body {
+    font-family:sans-serif;
+    color:white;
+    text-align: center; 
+    background-image: url("images/background.jpg");
+   
+}
+.container {
+    background-color: rgb(68, 68, 68);
+    border-radius: 25px;
+    width: 92%;
+    height: 92%;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+   
+}
+.diceimg {
+    position : relative; 
+}
+.printednum {
+    display: none;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    position: fixed; 
+    z-index: 1;
+    top: 160px;
+    left: 49%;
+    padding: 1px;
+}
